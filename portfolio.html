@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="4436481.png" href="https://cdn-icons-png.flaticon.com/512/4436/4436481.png">
+
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" >
+    
+    <header class="sticky-top ">
+        <!--navbar-->
+        <nav class="navbar navbar-dark bg-dark  navbar-expand-lg">
+            <div class="container" id="contin">
+                <a href="" class="navbar-brand">Port<span>folio</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#id-navbar-collapse"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse " id="id-navbar-collapse">
+                    <ul class="navbar-nav ms-auto " id="navbar-ul">
+                        <li class="me-5 my-2 nav-item d-flex justify-content-center  "><a href="#home" class="nav-link">Home</a></li>
+                        <li class="me-5 my-2 nav-item d-flex justify-content-center"><a href="#about" class="nav-link">About</a></li>
+                        <li class="me-5 my-2 nav-item d-flex justify-content-center "><a href="#eduction" class="nav-link">Eduction</a></li>
+                        <li class="me-5 my-2 nav-item d-flex justify-content-center "><a href="#contact" class="nav-link">Contact</a></li>
+    
+                        <li class="me-5 my-2 nav-item d-flex justify-content-center" data-bs-toggle="modal" data-bs-target="#id-modal" id="sign-nav-btn"><button class="btn btn-light d-flex text-center" type="button">Sign in</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--modal-->
+    <div class="modal fade" id="id-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--model-header-->
+                <div class="modal-header d-flex justify-content-center">
+                    <h3>Register</h3>
+                </div>
+                <!--modal-body-->
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group mb-3">
+                            <label for="" class="form-label">Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="" class="form-label">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="" class="form-label">Mobile</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="" class="form-label">Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <select name="" id="" class="form-select mb-3">
+                            <option selected value="">Select your Gender</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                        <div class="form-check">
+                            <label for="" class="form-check-label">
+                                <input type="checkbox" class="form-check-input">Remember me
+                            </label>
+                        </div>
+                        
+                    </form>
+                </div>
+                <footer>
+                    <div class="d-flex justify-content-around m-3" >                   
+                        <button type="button" class="btn btn-primary ">Submit</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                    </div>
+                </footer>
+    
+            </div>
+        </div>
+    </div>
+    <!--main-->
+    <main>
+        <!--home-->
+        <div id="home" class="container">
+            <div class="row ">
+                <div id="home-content" class="col">
+                    <h3>Hi,</h3>
+                    <h1>I'm <span>Prathosh</span></h1>
+                    <h1>a Frontend Developer</h1>
+                    <p>As a dedicated Computer Science and Engineering student, I aim to leverage my technical knowledge and
+                        problem-solving skills to contribute to innovative projects, collaborate with diverse teams, and
+                        continuously adapt to the ever-evolving technology landscape, while making a meaningful impact on the
+                        world</p>
+                    <button class="btn" type="button" >Hire me</button>
+                    
+                </div>
+                <div id="home-img " class="col d-flex justify-content-center">
+                    <div class="card shadow m-5 bg-body rounded">
+                        <img src="./passport photo.jpeg" alt=""  >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!--about us-->
+        <div class="container" id="about">
+            <h2>About <span>  Me</span></h2>
+            <div class="row">
+                <div class="col-12 mt-5 col-md-6 ">
+                    <h4>Fontend<span> Developer</span></h4>
+                    <p class="my-4">As a dedicated <b>Computer Science and Engineering </b>student, I aim to leveragte my technical knowledge and problem-solving skills to contribute to innovative projects,collaborate with diverse teams, and continuously adapt to the even-evoling technology landscape,while making a meaningful impact on the world</p>
+                    <button class="btn btn-dark m-2" type="button"><a href="./Prathosh-Anbarasan-all.pdf" target="_blank" class="text-white text-decoration-none" > View CV</a></button>
+                </div>
+                <div class="col-12 mt-5 col-md-6">
+                    <div id="proj-1" class="mb-4">
+                        <h6 class="mb-3">Website Project (HTML CSS JS BOOTSTRAP) |</h6>
+                        <p>Website link <br><a href="https://prathosh.neocities.org/project/simple-proj1" target="_blank">https://prathosh.neocities.org/project/simple-proj1</a></p>
+                        
+                    </div>
+                    <div id="proj-2" >
+                        <h6 class="mb-3">Bitcoin Sentiment Analysis Using Python |</h6>
+                        <p>-A Bitcoin sentiment analysis project leverages Natural Language Processing (NLP) and Machine
+                            Learning to assess public sentiment towards Bitcoin in real-time.<br>
+
+                            -It involves analyzing news articles, social media posts, and financial data using NLP techniques and
+                            machine learning algorithms to gauge market sentiment and provide actionable insights for investors
+                            and enthusiasts
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--eduction-->
+        <div class="container" id="eduction">
+            <h2>Educ<span>tion</span></h2>
+            <div class="row">
+                <div class="col-12 col-sm-6 ">
+                   <h5 class="d-flex justify-content-center">College & School</h5>
+
+                    <h6>- Bachelor of Engineering -</h6>
+                    <p>Vel Tech High Tech Dr.Rangarajan Dr.Sakunthala Engineering College,Chennai <br>CGPA : 8.33 || Pass-out : 2024</p>
+                
+                    <h6>- Higher Secondary Education (XII) -</h6>
+                    <p>Gandhi Matriculation Higher Secondary School,Thanjavur <br>PERCENTAGE : 61% || Duration : 2019 – 2020</p>
+
+                    <h6>- Secondary Education (X) -</h6>
+                    <p>Gandhi Matriculation Higher Secondary School,Thanjavur <br>PERCENTAGE : 69% || Duration : 2017 – 2018</p>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h5 class="d-flex justify-content-center">Course Certification</h5>
+
+
+                    <h6>- Data Science -</h6>
+                    <p>Course certification in FIIT institute,Chennai</p>
+
+                    <h6>- Project Certification -</h6>
+                    <p>Multi-disease prediction ( Machine Learning ) with streamlit in FIIT institute</p>
+               
+                </div>
+            </div>
+        </div>
+        <!--contact-->
+        <div class="container" id="contact">
+            <h2>Contact <span> Me</span></h2>
+            <div class="row mx-5">
+                <div class="col">
+                    <h6 >Email : <a  class=" text-decoration-none" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKhbmHlgJXjWNCSVDJDspmlcJVTMGsGfTpbPxGXkMjfQkkxnSHNJdlsmqjhWNgCHkgwzrXw" target="_blank">prathoshpratha6@gmail</a></h6>
+                    <h6>Mobile No. : <a class="text-decoration-none" href="#" target="_blank">8056315609</a></h6>
+                </div>
+                <div class="col">
+                    <h6>Address : <a class="text-decoration-none" href="https://maps.app.goo.gl/BWECMLE8DK1fvAD36" target="_blank"> Thondarampattu East ,Orathanadu ,Thanjavur,Tamil Nadu, 614905</a></h6>
+                    <h6>Linkedin : <a class=" text-decoration-none" href="https://www.linkedin.com/in/prathosh-anbarasan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">www.linkedin.com/in/prathosh-anbarasan</a></h6>
+                </div>
+            </div>
+            <div class="card shadow m-5 bg-body rounded">
+                <form action="" class="p-3">
+                    <div class="form-header mb-3 d-flex justify-content-center" id="form-head">
+                        <h3>Mes<span>sage</span></h3>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="" class="form-label">Name:</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="" class="form-label">Email:</label>
+                        <input type="email" class="form-control" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <textarea name="" id="" class="form-control" required>Message as.....</textarea>
+                    </div>
+                    <div class="form-group mb-3 d-flex justify-content-center">
+                        <button class="btn btn-block px-5" type="button" >Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </main>
+    <!--footer-->
+    <footer class="bg-dark">
+        <div class="container">
+            <div id="foot-1">
+                <ul>
+                    <li><a href="" class="text-white text-decoration-none mx-2 "><i class="fa-brands fa-linkedin"></i></a> </li>
+                    <li><a href="" class="text-white text-decoration-none mx-2"><i class="fa-brands fa-instagram"></i></a> </li>
+                    <li><a href="" class="text-white text-decoration-none mx-2"><i class="fa-regular fa-envelope"></i></a> </li>
+                    <li><a href="" class="text-white text-decoration-none mx-2"><i class="fa-brands fa-facebook"></i></a> </li>
+                </ul>
+            </div>
+            <div id="foot-2">
+                <ul>
+                    <li><a href="" class="text-white text-decoration-none mx-3">Home</a> </li>
+                    <li><a href="" class="text-white text-decoration-none mx-3">Services</a> </li>
+                    <li><a href="" class="text-white text-decoration-none mx-3">About Me</a> </li>
+                    <li><a href="" class="text-white text-decoration-none mx-3">Privacy Policy</a> </li>
+                </ul>
+            </div>
+            <div id="foot-3">
+                <p class="text-white">2024 @copyright make the portfolio let know container for the footer in end</p>
+            </div>
+
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
